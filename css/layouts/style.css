@@ -151,7 +151,6 @@ a.pure-button-primary {
 
 .splash {
     /* absolute center .splash within .splash-container */
-    width: 80%;
     height: 50%;
     margin: auto;
     position: absolute;
@@ -165,15 +164,16 @@ a.pure-button-primary {
     font-size: 20px;
     font-weight: bold;
     color: white;
-    padding: 1em 1.6em;
     font-weight: 100;
     border-radius: 5px;
     line-height: 1em;
-    background: url("/img/logo.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 303px;
+    
 
+}
+
+.splash-logo {
+    width: 200px;
+    height: 156px;
 }
 
 /* This is the subheading that appears on the blue section */
